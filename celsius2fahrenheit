@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+printf("Input number:\n ");
+float celsius;
+scanf("%6f", &celsius);
+float fahrenheit;
+fahrenheit = celsius*9.0/5 +32;
+printf("%6f C in Fahrenheit sind = %6f F \n", celsius, fahrenheit);
+printf("\nCelsius\t\tFahrenheit\n");
+for (int i=-30;i<101;i+=10){
+printf(" %d C\t\t%6f F \n", i, i*9.0/5+32);
+}
+return 0;
+}
