@@ -17,7 +17,6 @@
 #define BUFFSIZE 1024
 char buff[BUFFSIZE];
 
-
 char *host2ip(const char *host)
 {
     struct hostent *he = gethostbyname(host);
